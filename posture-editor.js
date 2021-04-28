@@ -218,9 +218,9 @@ function onMouseDown( event )
 
 		select( model[name] );
 
-		document.getElementById('rot-x-name').innerHTML = model[name].nameUI.x||'N/A';
-		document.getElementById('rot-y-name').innerHTML = model[name].nameUI.y||'N/A';
-		document.getElementById('rot-z-name').innerHTML = model[name].nameUI.z||'N/A';
+		// document.getElementById('rot-x-name').innerHTML = model[name].nameUI.x||'N/A';
+		// document.getElementById('rot-y-name').innerHTML = model[name].nameUI.y||'N/A';
+		// document.getElementById('rot-z-name').innerHTML = model[name].nameUI.z||'N/A';
 
 		dragPoint.position.copy( obj.worldToLocal(intersects[0].point) );
 		obj.imageWrapper.add( dragPoint );
